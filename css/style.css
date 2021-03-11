@@ -4,7 +4,8 @@
 .page {	
 	padding: 0;
 	margin: 0;
-	font-family: Roboto;	
+	font-family: Roboto;
+	font-size: 15px;	
 	color: #182153;
 }
 .page__header {
@@ -39,8 +40,7 @@
 	display: flex;
 	justify-content: space-around;	
 	align-items: center;
-	padding: 0;
-	font-size: 14px;
+	padding: 0;	
 	list-style: none;
 }
 @media (min-width: 992px){
@@ -63,6 +63,7 @@
 .section__title {
 	padding: 20px 0;
 	margin: 0;	
+	font-size: 170%;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -89,6 +90,11 @@
     margin: 0 auto;
     background-color: white;
 }
+@media(min-width: 768px) {
+	.contacts {
+		width: 700px;
+	}
+}
 @media(min-width: 992px) {
 	.contacts {
 		width: 900px;
@@ -99,6 +105,12 @@
 	width: 280px;
 	height: 250px;
 	object-fit: cover;
+}
+@media(min-width: 768px) {
+	.contacts__photo {
+		width: 300px;
+		height: 350px;
+	}
 }
 @media(min-width: 992px) {
 	.contacts__photo {
@@ -117,8 +129,12 @@
 	list-style: none;
 	background-color: #182153;
 }
+.contacts__title {
+    font-size: 150%;
+}
 .contacts__subtitle {
 	margin-bottom: 40px;
+	font-size: 110%;
 }
 .contacts__field {
     margin-bottom: 20px;
@@ -184,6 +200,9 @@
 	padding: 50px 0;
 }
 .education__title {
+}
+.education__content {
+	text-align: center;
 }
 
 .projects {	
