@@ -140,10 +140,12 @@
     margin-bottom: 20px;
 }
 .contacts__field-name {
+	font-size: 15px;
     font-weight: bold;
     margin: 0;
 }
 .contacts__field-value {
+	font-size: 15px;
     margin: 0;
 }
 
